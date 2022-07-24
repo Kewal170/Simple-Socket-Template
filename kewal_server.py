@@ -1,7 +1,7 @@
 import socket
 
-SERVER_IP = '192.168.56.1'
-SERVER_PORT = 5678
+SERVER_IP = '<ip address>'
+SERVER_PORT = <port>
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 	s.bind((SERVER_IP,SERVER_PORT))
